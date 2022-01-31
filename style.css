@@ -46,16 +46,4 @@ button {
 .etchContainer > * {
     border: 0.3px black solid;
 }
-.rangeSlider {
-    width: 50%;
-    border: 10px;
-}
-#range {
-    background: #FCF3CF;
-    width: 50%;
-    height: 80px;
-    opacity: 2;
-}
-#range:hover {
-    opacity: 1;
-}
+

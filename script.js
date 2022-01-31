@@ -25,9 +25,6 @@ clear.classList.add('clear');
 let numOfSquares = document.createElement('button');
 numOfSquares.classList.add('numOfSquares');
 
-// let rangeSlider = document.createElement('div');
-// rangeSlider.id = 'range';
-
 let eraser = document.createElement('button');
 eraser.classList.add('eraser');
 
@@ -156,7 +153,6 @@ defaultDisplay();
 //function for changing number of divs with button
 function divDisplay() {
 
-
     sideNum = prompt("Name a number between 0 and 100 inclusive for the size of your canvas", 16);
 
     if (sideNum > 100 || sideNum < 0) {
@@ -164,7 +160,6 @@ function divDisplay() {
     }
     
     divs(sideNum);
-    
 
 }
 //clears all divs 
