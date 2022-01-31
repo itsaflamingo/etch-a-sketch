@@ -1,0 +1,61 @@
+body {
+    font-family: 'VT323', monospace;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+.etchMenuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 200px;
+    border-radius: 1em;
+
+    justify-content: space-evenly;
+}
+button {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    background: transparent;
+    border: 1px black solid;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 5);
+
+}
+.etchContainer {
+    background-color: white;
+    display: flex;
+    height: 555px;
+    flex: 0 0 555px; /*container size won't change.*/
+
+    flex-wrap: wrap; 
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 5);
+    margin-bottom: 40px;
+}
+.etchContainer > * {
+    border: 0.3px black solid;
+}
+.rangeSlider {
+    width: 50%;
+    border: 10px;
+}
+#range {
+    background: #FCF3CF;
+    width: 50%;
+    height: 80px;
+    opacity: 2;
+}
+#range:hover {
+    opacity: 1;
+}
